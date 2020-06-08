@@ -1,0 +1,32 @@
+{
+    "name": "Strawberry Shopify Extension",
+    "description" : "A very opinionated extension that does some (hopefully) useful things on Shopify stores.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts":
+      [
+        {
+        "matches": ["https://*.myshopify.com/admin/online-store/themes*"],
+          "css": ["admin-themes/style.css"],
+          "js": ["admin-themes/script.js"],
+          "all_frames": true,
+          "run_at": "document_idle"
+        },
+        {
+          "matches": ["*://*/*"],
+          "css": ["admin-bar/style.css"]
+        },
+        {
+        "matches": ["*://*/preview_bar"],
+          "css": ["admin-bar/style.css"],
+          "js": ["admin-bar/script.js"],
+          "all_frames": true,
+          "run_at": "document_idle"
+        }
+      ],
+      "icons": {
+        "32": "icon32.png",
+        "64": "icon64.png",
+        "128": "icon128.png"
+      }
+  }

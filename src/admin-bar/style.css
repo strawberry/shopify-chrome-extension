@@ -1,0 +1,38 @@
+#preview-bar-iframe {
+  height: 25px !important;
+}
+
+.admin-bar__page.compact,
+.admin-bar__page.compact .admin-bar,
+.admin-bar__page.compact .admin-bar__stack .ui-stack-item--fill,
+.admin-bar__page.compact .admin-bar__stack {
+  height: 25px;
+}
+
+.admin-bar__page.compact .admin-bar__stack {
+  min-height: unset;
+}
+
+.admin-bar__page.compact .admin-bar__metadata {
+  display: none;
+}
+
+/* Hide all of the buttons */
+.admin-bar__page.compact button[data-modal-activator],
+.admin-bar__page.compact button[data-hide-bar-button],
+.admin-bar__page.compact button[data-exit-preview-button] {
+  display: none;
+}
+
+/* Style the more compact close button */
+.admin-bar__page.compact .compact-exit-preview {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.admin-bar__page.compact p {
+  font-size: 12px;
+  padding: 3px 0 0 0;
+}

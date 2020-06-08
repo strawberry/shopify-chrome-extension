@@ -1,0 +1,15 @@
+.theme-id {
+  color: var(--p-text-subdued, #637381);
+}
+
+[data-copy-theme-id] {
+  cursor: pointer;
+}
+
+[data-copy-preview-url] {
+  color: #084e8a;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+}
