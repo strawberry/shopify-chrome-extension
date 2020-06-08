@@ -5,8 +5,11 @@ Strawberry Shopify Extension
 
 A very opinionated extension that does some (hopefully) useful things on Shopify stores.
 
-
-[Click to download the `dist` directory](https://github.com/strawberry/shopify-chrome-extension/blob/master/dist.zip?raw=true)
+### Installation
+* Download the [the `dist` archive](https://github.com/strawberry/shopify-chrome-extension/blob/master/dist.zip?raw=true) and unpack it.
+* In Chrome, go to [chrome://extensions](chrome://extensions).
+* Toggle the "Developer mode" switch in the top right to _on_.
+* Click the "Load unpacked" button and select the directory you just unzipped.
 
 ### Features
 
