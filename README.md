@@ -6,7 +6,7 @@ Strawberry Shopify Extension
 A very opinionated extension that does some (hopefully) useful things on Shopify stores.
 
 
-[Click to download the extension](https://github.com/strawberry/shopify-chrome-extension/blob/master/shopify-chrome-extension.crx?raw=true)
+[Click to download the `dist` directory](https://github.com/strawberry/shopify-chrome-extension/blob/master/dist.zip?raw=true)
 
 ### Features
 
