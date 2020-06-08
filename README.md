@@ -21,3 +21,10 @@ In the same vein, click the 'Copy preview URL' under a theme to copy the theme's
 
 #### Compact Admin Bar
 On the frontend of any Shopify site, the standard admin bar which shows you which theme you're currently previewing is made much more compact. Only the theme's name and a close button remains.
+
+##### Caveats
+The theme ID and preview URL functionality only works with themes that have an emoji prefix. This shouldn't be an issue since they should have one, anyway. Any of the following are acceptable:
+
+💾✨🐞🛠🌍🌎🌏
+
+It would be nice if this weren't a requirement, but it was the easiest way to determine what element is a theme to filter them down. I don't want to rely on class names or similar DOM selectors as they are obfuscated and subject to change.
