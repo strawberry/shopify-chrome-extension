@@ -13,11 +13,11 @@ A very opinionated extension that does some (hopefully) useful things on Shopify
 
 ### Features
 
-#### Quick-Copy Theme IDs
-On the themes page in the admin panel, the theme's ID will be printed in the theme's row. Clicking on the ID will copy it to your clipboard.
-
-#### Quick-Copy Preview URL
-In the same vein, click the 'Copy preview URL' under a theme to copy the theme's preview URL to your clipboard.
+#### Admin Panel Theme Page Additions
+* On the themes page in the admin panel, the theme's ID will be printed in the theme's row.  
+  Clicking on the ID will copy it to your clipboard.
+* A 'Copy preview URL' link is added under a theme to copy the theme's preview URL to your clipboard.
+* If the theme name contains a Jira ticket code, it will it convert into a link that opens in a new tab.
 
 #### Compact Admin Bar
 On the frontend of any Shopify site, the standard admin bar which shows you which theme you're currently previewing is made much more compact. Only the theme's name and a close button remains.
