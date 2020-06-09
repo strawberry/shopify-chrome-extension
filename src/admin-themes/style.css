@@ -13,3 +13,7 @@
   font-size: 12px;
   text-decoration: none;
 }
+
+.jira-ticket-url {
+  color: #084e8a;
+}

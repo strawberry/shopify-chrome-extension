@@ -8,7 +8,7 @@
         {
         "matches": ["https://*.myshopify.com/admin/online-store/themes*"],
           "css": ["admin-themes/style.css"],
-          "js": ["admin-themes/script.js"],
+          "js": ["admin-themes/script.js", "admin-themes/jira-ticket.js"],
           "all_frames": true,
           "run_at": "document_idle"
         },
