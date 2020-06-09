@@ -3,12 +3,32 @@
     "description" : "A very opinionated extension that does some (hopefully) useful things on Shopify stores.",
     "version": "1.0",
     "manifest_version": 2,
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "https://*.myshopify.com/*"
+    ],
+    "background": {
+      "scripts": [
+        "admin-themes/background.js"
+      ],
+      "persistent": false
+    },
     "content_scripts":
       [
         {
         "matches": ["https://*.myshopify.com/admin/online-store/themes*"],
           "css": ["admin-themes/style.css"],
           "js": ["admin-themes/script.js", "admin-themes/jira-ticket.js"],
+          "all_frames": true,
+          "run_at": "document_idle"
+        },
+        {
+          "matches": ["https://*.myshopify.com/admin/*"],
+          "js": [
+            "admin-themes/rename-suggestions.js",
+            "admin-themes/rename-suggestions-observer.js"
+          ],
           "all_frames": true,
           "run_at": "document_idle"
         },
