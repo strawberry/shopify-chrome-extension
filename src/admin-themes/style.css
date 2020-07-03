@@ -18,3 +18,18 @@
   color: #084e8a;
   text-decoration: none;
 }
+
+.suggestions-container {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.suggestions-container button[data-theme-name-suggestion] {
+  background: linear-gradient(180deg,#fff,#f9fafb);
+  border: .1rem solid var(--p-border,#c4cdd5);
+  box-shadow: 0 1px 0 0 rgba(22,29,37,.05);
+  border-radius: 3px;
+  cursor: pointer;
+  height: 26px;
+  margin: 0 0.5rem 0 0;
+}
